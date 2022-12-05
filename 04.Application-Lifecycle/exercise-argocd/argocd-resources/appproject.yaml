@@ -8,8 +8,8 @@ spec:
   - group: '*'
     kind: '*'
   destinations:
-  - namespace: '*'
-    name: local-cluster
+  - namespace: sandbox2748
+    name: sandbox2748
     server: '*'
   sourceRepos:
   - '*'
