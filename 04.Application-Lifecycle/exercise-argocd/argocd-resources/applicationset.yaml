@@ -1,13 +1,4 @@
 ---
-apiVersion: cluster.open-cluster-management.io/v1beta1
-kind: Placement
-metadata:
-  name: webserver-placement
-  namespace: openshift-gitops
-spec:
-  clusterSets:
-    - aws-clusters
----
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
@@ -44,5 +35,3 @@ spec:
         automated:
           prune: false
           selfHeal: true
-
-
